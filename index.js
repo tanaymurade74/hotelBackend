@@ -15,7 +15,6 @@ app.use(express.json());
 
 const Hotel = require("./models/hotel.models");
 const hotel = require("./models/hotel.models");
-const { findByIdAndDelete } = require("../BE2.1HW1/models/restaurant.models");
 
 initializeDatabase();
 
